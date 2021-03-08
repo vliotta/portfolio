@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+/* Header */
 header {
     padding: 15px;
     padding-bottom: 45px;
@@ -25,7 +26,7 @@ header, main , footer {
     text-align: center;
 }
 
-
+/* Nav Bar */
 nav {
     display: flex;
     background-color: black;
@@ -47,22 +48,25 @@ nav a {
   text-align: center;
 }
 
+/* Main Section */
 main {
     display:flex;
     flex-wrap: wrap;
 }
 
-
+/* About Me Section */
 .about-me {
     background-color: white;
     padding: 20px;
 }
 
+/* Work Section */
 .work {
     background-color: gray;
     padding: 20px;
     width: 100%;  
 }
+
 
 .w-image{
     flex: 1 0 200px;
@@ -73,10 +77,18 @@ main {
     float: left;
 }
 
+/* First application image */
+#first {
+    height: 400px;
+    width: 845px;
+}
+
+/* Contact Section */
 .contact {
     padding: 20px;
 }
 
+/* Footer Section */
 footer {
     background-color: black;
     color: white
@@ -96,11 +108,7 @@ footer a {
     text-align: center;
 }
 
-#first {
-    height: 400px;
-    width: 400px;
-    
-}
+/* Media screen */
 @media screen and (max-width: 768px) {
 
     nav ul li {
